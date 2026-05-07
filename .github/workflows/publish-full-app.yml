@@ -1,0 +1,30 @@
+name: Publish full Padel 04 app
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/publish-full-app.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download full app
+        run: |
+          curl -L "https://files.catbox.moe/y7z46h.html" -o index.html
+          test "$(sha256sum index.html | awk '{print $1}')" = "5b6bd0a2cd19ef6cbf241d2e7ef6d8c6432c06fc57257fb6e722123c8ef5b788"
+      - name: Publish to gh-pages
+        run: |
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b gh-pages
+          git add index.html
+          git commit -m "Publish full Padel 04 SaaS app"
+          git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git push --force origin gh-pages
