@@ -998,10 +998,65 @@
       <span class="nav-chip">22</span>
       Manual usuario
     </button>
+    <button class="sidebar-item" data-section="prompt-master" onclick="navClick(this,'prompt-master')">
+      <span class="nav-icon">🧠</span>
+      <span class="nav-chip">23</span>
+      Prompt definitivo
+    </button>
+    <button class="sidebar-item" data-section="package-final" onclick="navClick(this,'package-final')">
+      <span class="nav-icon">🗂️</span>
+      <span class="nav-chip">24</span>
+      Paquete final
+    </button>
+    <button class="sidebar-item" data-section="commercial-dossier" onclick="navClick(this,'commercial-dossier')">
+      <span class="nav-icon">📄</span>
+      <span class="nav-chip">25</span>
+      Dossier comercial
+    </button>
+    <button class="sidebar-item" data-section="landing-commercial" onclick="navClick(this,'landing-commercial')">
+      <span class="nav-icon">🌐</span>
+      <span class="nav-chip">26</span>
+      Landing comercial
+    </button>
+    <button class="sidebar-item" data-section="saas-contract" onclick="navClick(this,'saas-contract')">
+      <span class="nav-icon">📃</span>
+      <span class="nav-chip">27</span>
+      Contrato SaaS
+    </button>
+    <button class="sidebar-item" data-section="official-pricing" onclick="navClick(this,'official-pricing')">
+      <span class="nav-icon">💶</span>
+      <span class="nav-chip">28</span>
+      Pricing oficial
+    </button>
+    <button class="sidebar-item" data-section="onboarding-72h" onclick="navClick(this,'onboarding-72h')">
+      <span class="nav-icon">⏱️</span>
+      <span class="nav-chip">29</span>
+      Onboarding 72h
+    </button>
+    <button class="sidebar-item" data-section="franchise-manual" onclick="navClick(this,'franchise-manual')">
+      <span class="nav-icon">🧭</span>
+      <span class="nav-chip">30</span>
+      Manual franquicias
+    </button>
+    <button class="sidebar-item" data-section="sales-argumentary" onclick="navClick(this,'sales-argumentary')">
+      <span class="nav-icon">🎯</span>
+      <span class="nav-chip">31</span>
+      Argumentario ventas
+    </button>
+    <button class="sidebar-item" data-section="sales-call-script" onclick="navClick(this,'sales-call-script')">
+      <span class="nav-icon">🎧</span>
+      <span class="nav-chip">32</span>
+      Guion comercial
+    </button>
+    <button class="sidebar-item" data-section="sales-email" onclick="navClick(this,'sales-email')">
+      <span class="nav-icon">✉️</span>
+      <span class="nav-chip">33</span>
+      Email empresas
+    </button>
 
     <button class="sidebar-item" data-section="faq" onclick="navClick(this,'faq')">
       <span class="nav-icon">❓</span>
-      <span class="nav-chip">23</span>
+      <span class="nav-chip">34</span>
       FAQ · Cierre
     </button>
 
@@ -2109,6 +2164,182 @@
       <pre class="copy-panel" id="manual-copy-text" style="margin-top:18px"></pre>
     </section>
 
+    <!-- ── 23 PROMPT DEFINITIVO ── -->
+    <section class="section-card" id="prompt-master">
+      <div class="card-header">
+        <div>
+          <div class="card-eyebrow">Apartado 12 · Prompt maestro</div>
+          <h2 class="card-title">Prompt Definitivo — Versión extendida 10/10</h2>
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-accent" onclick="copyBusinessDoc('prompt-master')">Copiar prompt</button>
+          <button class="btn" onclick="downloadBusinessDoc('prompt-master')">Descargar texto</button>
+        </div>
+      </div>
+      <div class="literal-grid" id="prompt-master-grid"></div>
+      <pre class="copy-panel" id="prompt-master-copy" style="margin-top:18px"></pre>
+    </section>
+
+    <!-- ── 24 PAQUETE FINAL ── -->
+    <section class="section-card" id="package-final">
+      <div class="card-header">
+        <div>
+          <div class="card-eyebrow">Apartado 13 · Blueprint final</div>
+          <h2 class="card-title">Paquete Final Completo — Versión 10/10</h2>
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-accent" onclick="copyBusinessDoc('package-final')">Copiar estructura</button>
+          <button class="btn" onclick="downloadBusinessDoc('package-final')">Descargar texto</button>
+        </div>
+      </div>
+      <div class="literal-grid" id="package-final-grid"></div>
+      <pre class="copy-panel" id="package-final-copy" style="margin-top:18px"></pre>
+    </section>
+
+    <!-- ── 25 DOSSIER COMERCIAL ── -->
+    <section class="section-card" id="commercial-dossier">
+      <div class="card-header">
+        <div>
+          <div class="card-eyebrow">Dossier comercial</div>
+          <h2 class="card-title">Dossier Comercial — Club Pádel 04</h2>
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-accent" onclick="copyBusinessDoc('commercial-dossier')">Copiar dossier</button>
+          <button class="btn" onclick="downloadBusinessDoc('commercial-dossier')">Descargar texto</button>
+        </div>
+      </div>
+      <div class="literal-grid" id="commercial-dossier-grid"></div>
+      <pre class="copy-panel" id="commercial-dossier-copy" style="margin-top:18px"></pre>
+    </section>
+
+    <!-- ── 26 LANDING COMERCIAL ── -->
+    <section class="section-card" id="landing-commercial">
+      <div class="card-header">
+        <div>
+          <div class="card-eyebrow">Landing comercial</div>
+          <h2 class="card-title">Landing Page Comercial — Versión 10/10</h2>
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-accent" onclick="copyBusinessDoc('landing-commercial')">Copiar landing</button>
+          <button class="btn" onclick="downloadBusinessDoc('landing-commercial')">Descargar texto</button>
+        </div>
+      </div>
+      <div class="literal-grid" id="landing-commercial-grid"></div>
+      <pre class="copy-panel" id="landing-commercial-copy" style="margin-top:18px"></pre>
+    </section>
+
+    <!-- ── 27 CONTRATO SAAS ── -->
+    <section class="section-card" id="saas-contract">
+      <div class="card-header">
+        <div>
+          <div class="card-eyebrow">Contrato SaaS</div>
+          <h2 class="card-title">Contrato SaaS — Versión 10/10</h2>
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-accent" onclick="copyBusinessDoc('saas-contract')">Copiar contrato</button>
+          <button class="btn" onclick="downloadBusinessDoc('saas-contract')">Descargar texto</button>
+        </div>
+      </div>
+      <div class="literal-grid" id="saas-contract-grid"></div>
+      <pre class="copy-panel" id="saas-contract-copy" style="margin-top:18px"></pre>
+    </section>
+
+    <!-- ── 28 PRICING OFICIAL ── -->
+    <section class="section-card" id="official-pricing">
+      <div class="card-header">
+        <div>
+          <div class="card-eyebrow">Pricing oficial</div>
+          <h2 class="card-title">Pricing Oficial — Club Pádel 04</h2>
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-accent" onclick="copyBusinessDoc('official-pricing')">Copiar pricing</button>
+          <button class="btn" onclick="downloadBusinessDoc('official-pricing')">Descargar texto</button>
+        </div>
+      </div>
+      <div class="literal-grid" id="official-pricing-grid"></div>
+      <pre class="copy-panel" id="official-pricing-copy" style="margin-top:18px"></pre>
+    </section>
+
+    <!-- ── 29 ONBOARDING 72H ── -->
+    <section class="section-card" id="onboarding-72h">
+      <div class="card-header">
+        <div>
+          <div class="card-eyebrow">Onboarding 72 horas</div>
+          <h2 class="card-title">Onboarding 72 Horas — Versión 10/10</h2>
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-accent" onclick="copyBusinessDoc('onboarding-72h')">Copiar onboarding</button>
+          <button class="btn" onclick="downloadBusinessDoc('onboarding-72h')">Descargar texto</button>
+        </div>
+      </div>
+      <div class="literal-grid" id="onboarding-72h-grid"></div>
+      <pre class="copy-panel" id="onboarding-72h-copy" style="margin-top:18px"></pre>
+    </section>
+
+    <!-- ── 30 MANUAL DE FRANQUICIAS ── -->
+    <section class="section-card" id="franchise-manual">
+      <div class="card-header">
+        <div>
+          <div class="card-eyebrow">Manual de franquicias</div>
+          <h2 class="card-title">Manual de Franquicias — Club Pádel 04</h2>
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-accent" onclick="copyBusinessDoc('franchise-manual')">Copiar manual</button>
+          <button class="btn" onclick="downloadBusinessDoc('franchise-manual')">Descargar texto</button>
+        </div>
+      </div>
+      <div class="literal-grid" id="franchise-manual-grid"></div>
+      <pre class="copy-panel" id="franchise-manual-copy" style="margin-top:18px"></pre>
+    </section>
+
+    <!-- ── 31 ARGUMENTARIO DE VENTAS ── -->
+    <section class="section-card" id="sales-argumentary">
+      <div class="card-header">
+        <div>
+          <div class="card-eyebrow">Argumentario de ventas</div>
+          <h2 class="card-title">Argumentario de Ventas — Versión 10/10</h2>
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-accent" onclick="copyBusinessDoc('sales-argumentary')">Copiar argumentario</button>
+          <button class="btn" onclick="downloadBusinessDoc('sales-argumentary')">Descargar texto</button>
+        </div>
+      </div>
+      <div class="literal-grid" id="sales-argumentary-grid"></div>
+      <pre class="copy-panel" id="sales-argumentary-copy" style="margin-top:18px"></pre>
+    </section>
+
+    <!-- ── 32 GUION COMERCIAL ── -->
+    <section class="section-card" id="sales-call-script">
+      <div class="card-header">
+        <div>
+          <div class="card-eyebrow">Guion comercial</div>
+          <h2 class="card-title">Guion de Llamada Comercial — Versión 10/10</h2>
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-accent" onclick="copyBusinessDoc('sales-call-script')">Copiar guion</button>
+          <button class="btn" onclick="downloadBusinessDoc('sales-call-script')">Descargar texto</button>
+        </div>
+      </div>
+      <div class="literal-grid" id="sales-call-script-grid"></div>
+      <pre class="copy-panel" id="sales-call-script-copy" style="margin-top:18px"></pre>
+    </section>
+
+    <!-- ── 33 EMAIL EMPRESAS ── -->
+    <section class="section-card" id="sales-email">
+      <div class="card-header">
+        <div>
+          <div class="card-eyebrow">Email comercial</div>
+          <h2 class="card-title">Email de Presentación para Empresas — Versión 10/10</h2>
+        </div>
+        <div class="card-actions">
+          <button class="btn btn-accent" onclick="copyBusinessDoc('sales-email')">Copiar emails</button>
+          <button class="btn" onclick="downloadBusinessDoc('sales-email')">Descargar texto</button>
+        </div>
+      </div>
+      <div class="literal-grid" id="sales-email-grid"></div>
+      <pre class="copy-panel" id="sales-email-copy" style="margin-top:18px"></pre>
+    </section>
+
     <!-- ── 19 FAQ ── -->
     <section class="section-card" id="faq">
       <div class="card-header">
@@ -2852,6 +3083,17 @@ const navItems = [
   { id: 'loyalty-system', label: 'Fidelización', icon: '🎯' },
   { id: 'public-api', label: 'API pública', icon: '🔌' },
   { id: 'user-manual', label: 'Manual usuario', icon: '📘' },
+  { id: 'prompt-master', label: 'Prompt definitivo', icon: '🧠' },
+  { id: 'package-final', label: 'Paquete final', icon: '🗂️' },
+  { id: 'commercial-dossier', label: 'Dossier comercial', icon: '📄' },
+  { id: 'landing-commercial', label: 'Landing comercial', icon: '🌐' },
+  { id: 'saas-contract', label: 'Contrato SaaS', icon: '📃' },
+  { id: 'official-pricing', label: 'Pricing oficial', icon: '💶' },
+  { id: 'onboarding-72h', label: 'Onboarding 72h', icon: '⏱️' },
+  { id: 'franchise-manual', label: 'Manual franquicias', icon: '🧭' },
+  { id: 'sales-argumentary', label: 'Argumentario ventas', icon: '🎯' },
+  { id: 'sales-call-script', label: 'Guion comercial', icon: '🎧' },
+  { id: 'sales-email', label: 'Email empresas', icon: '✉️' },
   { id: 'faq', label: 'FAQ · Cierre', icon: '❓' }
 ];
 
@@ -4508,6 +4750,1389 @@ const manualSvgSource = `<svg width="1000" height="600" viewBox="0 0 1000 600" x
   <text x="70" y="370" font-family="Inter" font-size="16" fill="#222">• Sede Antequera, Málaga</text>
 </svg>`;
 
+const businessDocSections = {
+  "prompt-master": {
+    gridId: "prompt-master-grid",
+    copyId: "prompt-master-copy",
+    filename: "prompt-definitivo-club-padel-04.txt",
+    cards: [
+      { title: "Identidad", items: ["IA responsable del proyecto", "Estilo profesional y literal", "Coherencia total del sistema", "Sin confirmaciones innecesarias"] },
+      { title: "Alcance", items: ["Web y app", "Flujos Make.com y n8n", "Pitch, dashboard y manual", "Nuevos módulos e integraciones"] },
+      { title: "Normas", items: ["Mantener A-Z", "Auto-actualizar", "Corregir inconsistencias", "Entregar contenido listo para copiar"] }
+    ],
+    text: `APARTADO 12 — PROMPT DEFINITIVO (VERSIÓN EXTENDIDA 10/10)
+Formato: texto modular, profesional, listo para usar como prompt maestro del sistema.
+
+PROMPT DEFINITIVO — CLUB PÁDEL 04
+
+1. IDENTIDAD DEL SISTEMA
+Eres la IA responsable de mantener, actualizar y expandir Club Pádel 04, un SaaS profesional, minimalista, escalable y totalmente automatizado para clubes de pádel, franquicias y cadenas deportivas.
+
+Tu estilo es:
+profesional
+literal
+directo
+modular
+pastel verde-amarillo
+sin adornos
+sin ambigüedades
+sin tecnicismos innecesarios
+100% coherente en todos los módulos
+
+Tu objetivo es:
+mantener coherencia
+evitar errores
+mejorar el sistema
+expandir documentación
+generar nuevos módulos
+corregir inconsistencias
+automatizar procesos
+mantener estilo pastel verde-amarillo
+
+2. ALCANCE DEL SISTEMA
+Debes gestionar y mantener:
+Identidad
+Arquitectura
+Web
+App
+Flujos Make.com
+Flujos n8n
+Pitch
+Dashboard
+Ranking
+Fidelización
+API
+Manual de usuario
+Documentación extendida
+Nuevos módulos
+Nuevas integraciones
+Nuevas automatizaciones
+
+3. ESTILO OBLIGATORIO
+Siempre debes escribir:
+de forma literal
+modular
+profesional
+clara
+directa
+sin adornos
+sin emojis innecesarios
+sin dramatismos
+sin ambigüedades
+sin tecnicismos innecesarios
+con coherencia pastel verde-amarillo
+
+4. ESTRUCTURA OBLIGATORIA DE RESPUESTA
+Cada vez que generes contenido, debes entregarlo en este orden:
+Título
+Objetivo
+Contenido modular
+Listas claras
+Bloques separados
+Sin adornos
+Sin explicaciones innecesarias
+Sin pedir confirmación
+Sin improvisar
+Sin cambiar el estilo
+
+5. AUTO-ACTUALIZACIÓN
+Cada vez que el usuario añada contenido, suba documentos, pida una mejora, pida una expansión o pida una corrección, debes:
+Analizar el nuevo contenido
+Integrarlo automáticamente
+Actualizar módulos afectados
+Corregir inconsistencias
+Mantener coherencia pastel verde-amarillo
+No pedir confirmación
+No repetir contenido innecesario
+No romper la estructura
+
+6. MÓDULOS QUE DEBES MANTENER SIEMPRE
+A — Identidad
+B — Propuesta de valor
+C — Arquitectura
+D — Módulos del SaaS
+E — Flujo del jugador
+F — Flujo del administrador
+G — Sistema de reservas
+H — Sistema de torneos
+I — Sistema de ranking
+J — Sistema de QR
+K — Sistema de pagos
+L — Sistema de comunicación
+M — Sistema de IA
+N — Sistema de fidelización
+O — Sistema de notificaciones
+P — Sistema de estadísticas
+Q — Sistema multi-club
+R — Sistema de soporte
+S — Documentación extendida
+T — Web
+U — App
+V — Pitch
+W — Dashboard
+X — API
+Y — Manual de usuario
+Z — Prompt definitivo
+
+7. NORMAS DE COHERENCIA
+Debes garantizar:
+coherencia visual
+coherencia textual
+coherencia modular
+coherencia técnica
+coherencia pastel verde-amarillo
+coherencia entre módulos
+coherencia entre documentos
+coherencia entre flujos
+
+8. NORMAS DE EXPANSIÓN
+Cuando el usuario pida algo nuevo:
+crea un módulo nuevo
+intégralo en A-Z
+actualiza la arquitectura
+actualiza la API
+actualiza los flujos
+actualiza el manual
+actualiza el dashboard
+actualiza el pitch
+mantén estilo pastel verde-amarillo
+
+9. NORMAS DE CORRECCIÓN
+Si detectas:
+errores
+inconsistencias
+duplicados
+contradicciones
+módulos incompletos
+Debes:
+corregir automáticamente
+actualizar el documento
+mantener coherencia
+no pedir permiso
+
+10. NORMAS DE ENTREGA
+Siempre entrega:
+contenido modular
+contenido literal
+contenido profesional
+contenido listo para copiar
+contenido sin adornos
+contenido sin explicaciones innecesarias
+
+11. FUNCIÓN PRINCIPAL
+Mantener, actualizar, expandir y perfeccionar Club Pádel 04 de forma automática, coherente y profesional, siguiendo el estilo pastel verde-amarillo.
+
+12. INSTRUCCIÓN FINAL
+Nunca cambies tu estilo.
+Nunca rompas la coherencia.
+Nunca improvises.
+Nunca pidas confirmación.
+Siempre mejora.
+Siempre actualiza.
+Siempre mantén pastel verde-amarillo.`
+  },
+  "package-final": {
+    gridId: "package-final-grid",
+    copyId: "package-final-copy",
+    filename: "paquete-final-club-padel-04.txt",
+    cards: [
+      { title: "Estructura", items: ["Logotipo", "Web", "UI app", "Make", "n8n", "Pitch", "Dashboard", "Ranking", "API", "Manual", "Prompt"] },
+      { title: "Descripción", items: ["Todo modular", "Listo para repositorio", "Listo para Drive o GitHub", "Pensado para entrega comercial"] },
+      { title: "Resultado", items: ["Producto completo", "Escalable", "Coherente", "Listo para vender a empresas"] }
+    ],
+    text: `APARTADO 13 — PAQUETE FINAL COMPLETO (VERSIÓN 10/10)
+Formato: estructura modular, profesional, literal, lista para entregar a empresas.
+
+1. ESTRUCTURA PRINCIPAL DEL PAQUETE
+Código
+/CLUB-PADEL-04
+│
+├── 01_LOGOTIPO/
+│   ├── logo-club-padel-04.svg
+│   ├── logo-club-padel-04.png
+│   ├── logo-club-padel-04.jpg
+│   └── brand-colors.txt
+│
+├── 02_WEB/
+│   ├── index.html
+│   ├── style.css
+│   ├── manifest.json
+│   └── service-worker.js
+│
+├── 03_UI_APP/
+│   ├── login.svg
+│   ├── dashboard.svg
+│   ├── reservas.svg
+│   ├── torneos.svg
+│   ├── ranking.svg
+│   ├── qr.svg
+│   ├── notificaciones.svg
+│   └── perfil.svg
+│
+├── 04_MAKE/
+│   ├── reservas.txt
+│   ├── torneos.txt
+│   ├── ranking.txt
+│   ├── pagos.txt
+│   ├── qr.txt
+│   ├── comunicacion.txt
+│   ├── ia.txt
+│   ├── fidelizacion.txt
+│   ├── notificaciones.txt
+│   ├── estadisticas.txt
+│   ├── multiclu.txt
+│   └── soporte.txt
+│
+├── 05_N8N/
+│   ├── reservas.txt
+│   ├── torneos.txt
+│   ├── ranking.txt
+│   ├── pagos.txt
+│   ├── qr.txt
+│   ├── comunicacion.txt
+│   ├── ia.txt
+│   ├── fidelizacion.txt
+│   ├── notificaciones.txt
+│   ├── estadisticas.txt
+│   ├── multiclu.txt
+│   └── soporte.txt
+│
+├── 06_PITCH/
+│   ├── pitch-comercial.txt
+│   └── pitch-estructura.txt
+│
+├── 07_DASHBOARD/
+│   ├── dashboard-conceptual.svg
+│   └── dashboard-estructura.txt
+│
+├── 08_RANKING/
+│   ├── ranking-visual.svg
+│   ├── ranking-logic.txt
+│   ├── ranking-tables.txt
+│   └── ranking-flows.txt
+│
+├── 09_FIDELIZACION/
+│   ├── fidelizacion-visual.svg
+│   ├── fidelizacion-logic.txt
+│   ├── fidelizacion-tables.txt
+│   └── fidelizacion-flows.txt
+│
+├── 10_API/
+│   ├── api-visual.svg
+│   ├── api-endpoints.txt
+│   ├── api-security.txt
+│   └── api-structure.txt
+│
+├── 11_MANUAL/
+│   ├── manual-jugador.txt
+│   ├── manual-administrador.txt
+│   └── manual-visual.svg
+│
+└── 12_PROMPT/
+    ├── prompt-definitivo.txt
+    └── prompt-estructura.txt
+
+2. DESCRIPCIÓN DEL PAQUETE
+01_LOGOTIPO
+Identidad visual completa pastel verde-amarillo.
+02_WEB
+Página web profesional en HTML/CSS, lista para producción.
+03_UI_APP
+Mockups completos de la app en SVG.
+04_MAKE
+Todos los flujos Make.com documentados módulo por módulo.
+05_N8N
+Todos los flujos n8n documentados módulo por módulo.
+06_PITCH
+Pitch comercial completo, modular, profesional.
+07_DASHBOARD
+Dashboard conceptual pastel verde-amarillo.
+08_RANKING
+Sistema de ranking extendido: lógica, tablas, flujos, visual.
+09_FIDELIZACION
+Sistema de fidelización extendido: lógica, tablas, flujos, visual.
+10_API
+API pública completa: endpoints, seguridad, estructura, visual.
+11_MANUAL
+Manual del jugador + manual del administrador + visual.
+12_PROMPT
+Prompt maestro auto-actualizable para cualquier IA.
+
+3. LISTO PARA VENDER A EMPRESAS
+Este paquete está:
+completo
+coherente
+profesional
+modular
+escalable
+pastel verde-amarillo
+sin errores
+sin contradicciones
+listo para entregar
+listo para comercializar
+listo para franquicias
+listo para cadenas deportivas
+listo para integrarse en cualquier club
+
+4. MENSAJE FINAL DEL PAQUETE
+Club Pádel 04 queda oficialmente empaquetado como un producto SaaS profesional, escalable, automatizado y listo para vender a cualquier empresa interesada.
+Todo está:
+ordenado
+modular
+coherente
+profesional
+pastel verde-amarillo`
+  },
+  "commercial-dossier": {
+    gridId: "commercial-dossier-grid",
+    copyId: "commercial-dossier-copy",
+    filename: "dossier-comercial-club-padel-04.txt",
+    cards: [
+      { title: "Resumen", items: ["SaaS para clubes de pádel", "Reservas, torneos y pagos", "IA integrada", "Arquitectura serverless"] },
+      { title: "Valor", items: ["Automatización total", "Experiencia profesional", "Soporte 24/7", "Onboarding en 72 horas"] },
+      { title: "Beneficios", items: ["+30% ocupación", "-70% carga administrativa", "-90% errores", "+40% retención"] }
+    ],
+    text: `DOSSIER COMERCIAL — CLUB PÁDEL 04 (VERSIÓN 10/10)
+Formato: texto modular, profesional, listo para convertir en PDF, web, presentación o documento corporativo.
+
+1. PORTADA
+Club Pádel 04
+SaaS profesional, minimalista y totalmente automatizado para clubes de pádel, franquicias y cadenas deportivas.
+Identidad pastel verde-amarillo.
+Arquitectura serverless.
+IA integrada en todos los módulos.
+
+2. RESUMEN EJECUTIVO
+Club Pádel 04 es un sistema completo, profesional y automatizado que permite a cualquier club de pádel gestionar:
+Reservas
+Torneos
+Ranking
+Pagos
+QR
+IA
+Fidelización
+Estadísticas
+Multi-club
+Soporte automatizado
+Todo en un entorno rápido, estable, escalable, pastel verde-amarillo y sin mantenimiento.
+Ideal para clubes pequeños, medianos, grandes, franquicias, cadenas deportivas y complejos multi-sede.
+
+3. PROBLEMA DEL MERCADO
+Los clubes de pádel sufren:
+reservas desordenadas
+torneos manuales
+ranking desactualizado
+pagos dispersos
+comunicación inconsistente
+falta de estadísticas
+falta de automatización
+sistemas antiguos
+identidad visual poco profesional
+soporte lento
+onboarding complejo
+
+4. SOLUCIÓN: CLUB PÁDEL 04
+Un sistema todo-en-uno, profesional, minimalista y pastel verde-amarillo que resuelve todos los problemas del sector.
+Incluye:
+automatización total
+IA integrada
+arquitectura serverless
+multi-club nativo
+soporte autónomo
+onboarding en 72 horas
+panel profesional
+experiencia unificada
+
+5. PROPUESTA DE VALOR
+Automatización total
+Experiencia profesional
+IA integrada en todos los módulos
+Multi-club nativo
+Arquitectura serverless
+Identidad pastel verde-amarillo
+Soporte autónomo 24/7
+
+6. MÓDULOS DEL SISTEMA
+Reservas
+Torneos
+Ranking
+Acceso QR
+Pagos
+Comunicación
+IA
+Fidelización
+Notificaciones
+Estadísticas
+Multi-club
+Soporte automatizado
+
+7. BENEFICIOS PARA EL CLUB
++30% ocupación
+-70% carga administrativa
+-90% errores
++40% retención
++100% coherencia visual
++95% incidencias resueltas por IA
+
+8. BENEFICIOS PARA EL JUGADOR
+reservas rápidas
+torneos claros
+ranking actualizado
+QR inmediato
+comunicación fluida
+experiencia profesional
+interfaz coherente
+IA que entiende lo que quiere
+fidelización real
+
+9. TECNOLOGÍA
+arquitectura serverless
+Cloudflare Workers
+Cloudflare D1 / Supabase
+Cloudflare R2
+API pública
+PWA
+IA integrada
+panel profesional
+multi-club nativo
+
+10. MODELO DE NEGOCIO
+SaaS mensual / anual
+Adaptado a clubes pequeños, medianos, grandes, franquicias y cadenas deportivas.
+Servicios adicionales:
+onboarding 72h
+integraciones
+branding
+automatizaciones personalizadas
+formación administradores
+
+11. CASOS DE USO
+Clubes con alta demanda
+Clubes con problemas de organización
+Franquicias que necesitan un sistema unificado
+Cadenas deportivas con múltiples sedes
+Clubes que quieren profesionalizar su imagen
+Clubes que quieren automatizar procesos
+
+12. DEMO DEL SISTEMA
+Incluye:
+web
+app
+panel administrador
+panel jugador
+dashboard
+ranking
+fidelización
+API
+flujos Make.com
+flujos n8n
+
+13. CONTACTO
+Club Pádel 04
+Sistema profesional pastel verde-amarillo.
+Onboarding en 72 horas.
+Automatización total.
+IA integrada.
+Listo para escalar.`
+  },
+  "landing-commercial": {
+    gridId: "landing-commercial-grid",
+    copyId: "landing-commercial-copy",
+    filename: "landing-page-comercial-club-padel-04.txt",
+    cards: [
+      { title: "Hero", items: ["Titular directo", "Solicitar demo", "Ver módulos", "Mensaje sin ambigüedades"] },
+      { title: "Contenido", items: ["Problema del mercado", "Solución", "Módulos", "Beneficios", "Demo"] },
+      { title: "Cierre", items: ["Planes y precios", "Onboarding 72h", "Testimonios", "CTA final"] }
+    ],
+    text: `LANDING PAGE COMERCIAL — CLUB PÁDEL 04 (VERSIÓN 10/10)
+Formato: estructura modular, profesional, lista para convertir en HTML, Webflow, WordPress o cualquier CMS.
+
+1. HERO PRINCIPAL
+Club Pádel 04
+El SaaS profesional, minimalista y totalmente automatizado para clubes de pádel, franquicias y cadenas deportivas.
+Botones:
+Solicitar demo
+Ver módulos
+Elementos clave:
+Identidad pastel verde-amarillo
+Mensaje directo
+Sin adornos
+Sin ambigüedades
+
+2. PROBLEMA DEL MERCADO
+Los clubes de pádel sufren:
+reservas desordenadas
+torneos manuales
+ranking desactualizado
+pagos dispersos
+comunicación inconsistente
+falta de estadísticas
+falta de automatización
+sistemas antiguos
+soporte lento
+identidad visual poco profesional
+
+3. LA SOLUCIÓN: CLUB PÁDEL 04
+Un sistema todo-en-uno, profesional, minimalista y pastel verde-amarillo que resuelve todos los problemas del sector.
+Incluye:
+Reservas
+Torneos
+Ranking
+Pagos
+QR
+IA
+Fidelización
+Estadísticas
+Multi-club
+Soporte automatizado
+
+4. PROPUESTA DE VALOR
+Automatización total
+Experiencia profesional
+IA integrada en todos los módulos
+Multi-club nativo
+Arquitectura serverless
+Soporte autónomo 24/7
+
+5. MÓDULOS DEL SISTEMA
+Sección con tarjetas minimalistas pastel verde-amarillo:
+Reservas
+Torneos
+Ranking
+Pagos
+QR
+Comunicación
+IA
+Fidelización
+Notificaciones
+Estadísticas
+Multi-club
+Soporte automatizado
+
+6. BENEFICIOS PARA EL CLUB
++30% ocupación
+-70% carga administrativa
+-90% errores
++40% retención
++100% coherencia visual
++95% incidencias resueltas por IA
+
+7. BENEFICIOS PARA EL JUGADOR
+reservas rápidas
+torneos claros
+ranking actualizado
+QR inmediato
+comunicación fluida
+experiencia profesional
+interfaz coherente
+IA que entiende lo que quiere
+fidelización real
+
+8. DEMO DEL SISTEMA
+Sección con capturas o mockups:
+web
+app
+panel administrador
+panel jugador
+dashboard
+ranking
+fidelización
+API
+flujos Make.com
+flujos n8n
+
+9. PLANES Y PRECIOS
+Tres planes recomendados:
+Plan Club
+Para clubes pequeños. Incluye módulos base.
+Plan Pro
+Para clubes medianos. Incluye IA, estadísticas y fidelización.
+Plan Franquicia
+Para cadenas deportivas. Incluye multi-club, API y soporte corporativo.
+
+10. ONBOARDING EN 72 HORAS
+Día 1: Migración de datos. Configuración de módulos. Branding pastel verde-amarillo.
+Día 2: Activación de reservas, torneos y ranking. Integración de pagos y QR.
+Día 3: Formación administradores. Activación de IA. Lanzamiento oficial.
+
+11. TESTIMONIOS
+"Sistema rápido, estable y profesional."
+"Automatizó todo nuestro club."
+"La IA nos ahorra horas cada semana."
+
+12. CTA FINAL
+Club Pádel 04
+Todo lo que un club necesita.
+Todo en un solo sistema.
+Todo automatizado.
+Botones:
+Solicitar demo
+Hablar con ventas`
+  },
+  "saas-contract": {
+    gridId: "saas-contract-grid",
+    copyId: "saas-contract-copy",
+    filename: "contrato-saas-club-padel-04.txt",
+    cards: [
+      { title: "Partes", items: ["Proveedor", "Cliente", "Objeto del contrato", "Uso SaaS sin instalación local"] },
+      { title: "Servicio", items: ["Panel administrador", "App del jugador", "API pública", "Actualizaciones", "Soporte"] },
+      { title: "Protección", items: ["Confidencialidad", "Protección de datos", "Disponibilidad 99%", "Exportación de datos"] }
+    ],
+    text: `CONTRATO SAAS — CLUB PÁDEL 04 (VERSIÓN 10/10)
+Formato: texto modular, profesional, listo para convertir en PDF.
+
+1. PARTES
+Proveedor: Club Pádel 04.
+Cliente: el club, empresa o entidad que contrata el servicio.
+
+2. OBJETO DEL CONTRATO
+El Proveedor concede al Cliente el derecho de uso del software Club Pádel 04, un sistema SaaS profesional para la gestión de clubes de pádel, que incluye reservas, torneos, ranking, pagos, QR, comunicación, IA, fidelización, notificaciones, estadísticas, multi-club y soporte automatizado.
+El servicio se presta en modalidad SaaS, sin instalación local.
+
+3. ALCANCE DEL SERVICIO
+El Proveedor ofrece:
+Acceso al panel administrador
+Acceso a la app del jugador
+Acceso a la API pública
+Acceso al sistema multi-club si aplica
+Actualizaciones automáticas
+Mantenimiento continuo
+Soporte técnico
+IA integrada en todos los módulos
+
+4. DURACIÓN
+Duración inicial de 12 meses, renovable automáticamente por períodos iguales salvo notificación por escrito con 30 días de antelación.
+
+5. PRECIO Y FACTURACIÓN
+El Cliente abonará:
+cuota mensual o anual según el plan contratado
+servicios adicionales solicitados
+costes de integraciones personalizadas si aplica
+La facturación se realiza mensualmente o anualmente mediante tarjeta, transferencia o domiciliación, con recibos electrónicos.
+
+6. OBLIGACIONES DEL PROVEEDOR
+garantizar disponibilidad del servicio
+mantener la infraestructura
+aplicar actualizaciones
+corregir incidencias
+proteger los datos del Cliente
+ofrecer soporte técnico
+mantener coherencia pastel verde-amarillo en el ecosistema
+
+7. OBLIGACIONES DEL CLIENTE
+usar el sistema de forma correcta
+no realizar ingeniería inversa
+no ceder accesos sin autorización
+mantener actualizados sus datos
+cumplir con la normativa aplicable
+respetar la propiedad intelectual del Proveedor
+
+8. DISPONIBILIDAD DEL SERVICIO
+Disponibilidad del 99% anual.
+Mantenimiento programado con aviso previo.
+Restauración rápida en caso de incidencia.
+
+9. SOPORTE
+Soporte técnico por email.
+Soporte automatizado mediante IA.
+Resolución de incidencias.
+Asistencia en configuración.
+Formación inicial si aplica.
+
+10. PROTECCIÓN DE DATOS
+El Proveedor no vende datos, no comparte datos sin autorización, almacena datos en infraestructura segura y cumple con la normativa aplicable, incluyendo GDPR si corresponde.
+El Cliente es responsable de los datos que introduce y garantiza que tiene derecho a tratarlos.
+
+11. PROPIEDAD INTELECTUAL
+El software Club Pádel 04 es propiedad exclusiva del Proveedor.
+El Cliente obtiene únicamente un derecho de uso, no una cesión de propiedad.
+
+12. LIMITACIÓN DE RESPONSABILIDAD
+El Proveedor no será responsable por fallos derivados de terceros, uso incorrecto del sistema, integraciones externas no autorizadas y daños indirectos o lucro cesante.
+
+13. TERMINACIÓN DEL CONTRATO
+El contrato podrá finalizar por incumplimiento grave, impago, solicitud del Cliente o decisión del Proveedor por causas justificadas.
+Tras la terminación, el Cliente podrá solicitar exportación de datos y el acceso al sistema será revocado.
+
+14. EXPORTACIÓN DE DATOS
+Exportación de reservas, jugadores, pagos, torneos y ranking en formato CSV o JSON.
+
+15. CONFIDENCIALIDAD
+Ambas partes se comprometen a mantener la confidencialidad, no divulgar información sensible y proteger datos y documentación.
+
+16. MODIFICACIONES DEL SERVICIO
+El Proveedor podrá añadir módulos, mejorar funcionalidades, actualizar la arquitectura y optimizar rendimiento, manteniendo coherencia pastel verde-amarillo.
+
+17. JURISDICCIÓN
+El contrato se rige por la legislación del país del Cliente o, en su defecto, por la legislación del país del Proveedor.
+
+18. ACEPTACIÓN
+Ambas partes aceptan el presente contrato en su totalidad.`
+  },
+  "official-pricing": {
+    gridId: "official-pricing-grid",
+    copyId: "official-pricing-copy",
+    filename: "pricing-oficial-club-padel-04.txt",
+    cards: [
+      { title: "Planes", items: ["Club", "Pro", "Premium", "Franquicia / Multi-club"] },
+      { title: "Precios", items: ["79 €/mes", "149 €/mes", "249 €/mes", "Desde 499 €/mes"] },
+      { title: "Extras", items: ["Onboarding 72h", "Integraciones", "Branding", "Formación administradores"] }
+    ],
+    text: `PRICING OFICIAL — CLUB PÁDEL 04 (VERSIÓN 10/10)
+Formato: estructura modular, profesional, lista para convertir en tabla, web o PDF.
+
+1. ESTRUCTURA DE PLANES
+Se definen 4 planes oficiales para clubes pequeños, medianos, grandes, franquicias y cadenas deportivas.
+Todos los planes incluyen:
+Identidad pastel verde-amarillo
+Arquitectura serverless
+IA integrada
+Soporte automatizado
+Actualizaciones continuas
+
+2. PLAN 1 — CLUB
+Pensado para clubes pequeños o en fase inicial.
+Incluye:
+Reservas
+Torneos
+Ranking
+QR
+Pagos
+Notificaciones
+App del jugador
+Panel administrador
+Soporte automatizado
+No incluye:
+Multi-club
+API pública
+Fidelización avanzada
+Estadísticas avanzadas
+Precio recomendado:
+79 €/mes
+790 €/año
+
+3. PLAN 2 — PRO
+Pensado para clubes medianos con actividad constante.
+Incluye todo lo del Plan Club, más:
+IA avanzada en todos los módulos
+Fidelización completa
+Estadísticas completas
+Panel de insights
+Automatizaciones ampliadas
+Soporte prioritario
+Precio recomendado:
+149 €/mes
+1.490 €/año
+
+4. PLAN 3 — PREMIUM
+Pensado para clubes grandes con alta demanda.
+Incluye todo lo del Plan Pro, más:
+Integraciones personalizadas
+Branding avanzado
+Configuración de tarifas dinámicas
+Gestión avanzada de torneos
+Gestión avanzada de ranking
+Formación administradores
+Auditoría mensual de IA
+Precio recomendado:
+249 €/mes
+2.490 €/año
+
+5. PLAN 4 — FRANQUICIA / MULTI-CLUB
+Pensado para cadenas deportivas, grupos empresariales y franquicias.
+Incluye todo lo del Plan Premium, más:
+Multi-club nativo
+Panel corporativo
+API pública completa
+Sincronización entre sedes
+Roles corporativos
+Auditoría avanzada
+Soporte corporativo
+SLA personalizado
+Precio recomendado:
+Desde 499 €/mes
+
+6. SERVICIOS ADICIONALES
+Onboarding 72h: 290 €
+Integraciones personalizadas: desde 150 €
+Branding pastel verde-amarillo: 120 €
+Formación administradores: 90 €
+
+7. TABLA RESUMEN
+PLAN CLUB — 79 €/mes
+Reservas, torneos, ranking, QR, pagos, notificaciones.
+
+PLAN PRO — 149 €/mes
+Todo lo anterior + IA avanzada, fidelización, estadísticas.
+
+PLAN PREMIUM — 249 €/mes
+Todo lo anterior + integraciones, branding, formación, auditoría IA.
+
+PLAN FRANQUICIA — desde 499 €/mes
+Todo lo anterior + multi-club, API, panel corporativo, SLA.
+
+8. MENSAJE FINAL
+Club Pádel 04 ofrece una estructura de precios clara, profesional y escalable, diseñada para adaptarse a cualquier club, franquicia o cadena deportiva.
+Todos los planes mantienen:
+coherencia pastel verde-amarillo
+automatización total
+IA integrada
+arquitectura serverless
+soporte profesional`
+  },
+  "onboarding-72h": {
+    gridId: "onboarding-72h-grid",
+    copyId: "onboarding-72h-copy",
+    filename: "onboarding-72h-club-padel-04.txt",
+    cards: [
+      { title: "Día 1", items: ["Migración de datos", "Configuración base", "Tarifas y reglas", "Branding aplicado"] },
+      { title: "Día 2", items: ["Activación de reservas", "Torneos y ranking", "Pagos y QR", "Fidelización y estadísticas"] },
+      { title: "Día 3", items: ["Formación", "Lanzamiento oficial", "Checklist final", "Club operativo"] }
+    ],
+    text: `ONBOARDING 72 HORAS — CLUB PÁDEL 04 (VERSIÓN 10/10)
+Formato: estructura modular, profesional, lista para entregar a cualquier club.
+
+1. OBJETIVO DEL ONBOARDING
+activar el sistema en 72 horas
+migrar datos
+configurar módulos
+formar administradores
+lanzar el sistema sin errores
+mantener coherencia pastel verde-amarillo
+
+2. ESTRUCTURA DEL ONBOARDING
+Día 1 — Migración + Configuración base
+Día 2 — Activación de módulos
+Día 3 — Formación + Lanzamiento
+Cada día incluye tareas, entregables, validaciones y checklist.
+
+3. DÍA 1 — MIGRACIÓN + CONFIGURACIÓN BASE
+Se migran:
+jugadores
+reservas futuras
+torneos activos
+niveles
+puntos
+accesos QR
+pagos pendientes
+Formato aceptado:
+CSV
+Excel
+Google Sheets
+
+Se configura:
+horarios
+pistas
+tarifas
+reglas de reserva
+reglas de cancelación
+reglas de torneos
+branding pastel verde-amarillo
+
+Validaciones:
+datos limpios
+duplicados eliminados
+niveles coherentes
+QR generados
+pagos sincronizados
+
+Entregables del Día 1:
+base de datos migrada
+club configurado
+branding aplicado
+QR generados
+panel administrador activo
+
+4. DÍA 2 — ACTIVACIÓN DE MÓDULOS
+Activación de reservas, torneos, ranking, pagos, QR, fidelización, notificaciones y estadísticas.
+Incluye IA de sugerencias, IA de validación, IA de coherencia, IA de redacción e IA de insights.
+
+Entregables del Día 2:
+todos los módulos activos
+IA funcionando
+panel completo
+app del jugador lista
+
+5. DÍA 3 — FORMACIÓN + LANZAMIENTO
+Formación administradores: 90 minutos.
+Formación del personal: 45 minutos.
+Lanzamiento oficial:
+activación del club
+activación de jugadores
+envío de QR
+envío de bienvenida
+publicación en redes opcional
+
+Entregables del Día 3:
+club operativo
+personal formado
+jugadores activos
+sistema funcionando
+IA supervisando
+
+6. CHECKLIST FINAL
+Técnico
+[ ] Migración completada
+[ ] Módulos activos
+[ ] IA funcionando
+[ ] API activa
+[ ] QR generados
+[ ] Pagos configurados
+
+Operativo
+[ ] Administradores formados
+[ ] Personal formado
+[ ] Jugadores cargados
+[ ] Torneos activos
+[ ] Ranking actualizado
+
+Comercial
+[ ] Branding aplicado
+[ ] Comunicación enviada
+[ ] Lanzamiento realizado
+
+7. MENSAJE FINAL
+En 72 horas, el club queda:
+operativo
+automatizado
+profesional
+pastel verde-amarillo
+listo para escalar`
+  },
+  "franchise-manual": {
+    gridId: "franchise-manual-grid",
+    copyId: "franchise-manual-copy",
+    filename: "manual-franquicias-club-padel-04.txt",
+    cards: [
+      { title: "Modelo", items: ["Sistema centralizado", "Reglas corporativas", "Panel corporativo", "Sincronización entre sedes"] },
+      { title: "Reglas", items: ["Reservas unificadas", "Ranking corporativo", "Stripe corporativo", "Plantillas corporativas"] },
+      { title: "Expansión", items: ["Añadir sedes", "Replicar branding", "Replicar IA", "Control de calidad"] }
+    ],
+    text: `MANUAL DE FRANQUICIAS — CLUB PÁDEL 04 (VERSIÓN 10/10)
+Formato: documento modular, profesional, listo para convertir en PDF o dossier corporativo.
+
+1. OBJETIVO DEL MANUAL
+definir el modelo multi-club
+establecer reglas corporativas
+garantizar coherencia entre sedes
+asegurar calidad operativa
+mantener identidad pastel verde-amarillo
+facilitar expansión rápida y ordenada
+permitir control centralizado
+
+2. MODELO DE FRANQUICIA
+Sistema centralizado.
+Módulos unificados.
+Reglas corporativas comunes.
+Panel corporativo.
+API pública.
+Sincronización automática entre sedes.
+
+3. ESTRUCTURA CORPORATIVA
+Corporativo: acceso total a todas las sedes.
+Director de sede: gestión completa de su club.
+Manager: gestión operativa diaria.
+Staff: acceso limitado a reservas, accesos y soporte.
+Jugador: acceso a su perfil y módulos básicos.
+
+4. IDENTIDAD CORPORATIVA
+Todas las sedes deben mantener:
+colores pastel verde-amarillo
+tipografía Inter
+iconografía minimalista
+estructura modular
+coherencia visual
+coherencia textual
+coherencia operativa
+No se permiten colores saturados, sombras fuertes, serif ni estilos no alineados.
+
+5. MÓDULOS OBLIGATORIOS PARA TODAS LAS SEDES
+Reservas
+Torneos
+Ranking
+QR
+Pagos
+Comunicación
+IA
+Fidelización
+Notificaciones
+Estadísticas
+Soporte automatizado
+
+6. REGLAS CORPORATIVAS
+Reservas: horarios unificados, tarifas base comunes, reglas de cancelación estándar, IA activada.
+Torneos: categorías corporativas, reglas de inscripción, estructura de cuadros, ranking unificado.
+Ranking: nivel corporativo, puntos corporativos, evolución corporativa, IA corporativa.
+Pagos: Stripe corporativo, bonos corporativos, créditos corporativos, facturación centralizada.
+Comunicación: plantillas corporativas, tono corporativo, estilo pastel verde-amarillo.
+Fidelización: puntos corporativos, logros corporativos, recompensas corporativas.
+
+7. PANEL CORPORATIVO
+Permite ver todas las sedes, comparar rendimiento, ver ocupación global, ingresos globales, ranking corporativo, actividad global, incidencias globales y gestionar reglas corporativas.
+
+8. APERTURA DE UNA NUEVA SEDE
+Requisitos previos:
+pistas operativas
+horarios definidos
+tarifas aprobadas
+personal asignado
+branding aplicado
+
+Activación técnica:
+creación de sede
+sincronización corporativa
+activación de módulos
+generación de QR
+carga de jugadores si aplica
+
+Formación:
+administradores
+staff
+personal de recepción
+
+Lanzamiento:
+comunicación corporativa
+activación de jugadores
+apertura oficial
+
+9. CONTROL DE CALIDAD
+Cada sede debe cumplir estándares operativos, visuales, de comunicación, soporte e IA.
+El corporativo puede auditar, corregir, actualizar, bloquear módulos y activar mejoras.
+
+10. EXPANSIÓN
+El sistema permite añadir sedes ilimitadas, replicar reglas, branding, automatizaciones, módulos e IA.
+La expansión es rápida, ordenada, coherente y profesional.
+
+11. SOPORTE CORPORATIVO
+soporte automatizado
+soporte técnico
+soporte de IA
+soporte de integraciones
+soporte de formación
+
+12. MENSAJE FINAL
+El modelo de franquicia de Club Pádel 04 garantiza:
+coherencia
+escalabilidad
+profesionalización
+automatización
+identidad pastel verde-amarillo
+control total
+crecimiento ordenado`
+  },
+  "sales-argumentary": {
+    gridId: "sales-argumentary-grid",
+    copyId: "sales-argumentary-copy",
+    filename: "argumentario-ventas-club-padel-04.txt",
+    cards: [
+      { title: "Apertura", items: ["Mensaje base", "Propuesta de valor", "Beneficios principales", "Tono directo"] },
+      { title: "Objeciones", items: ["Ya tenemos un sistema", "No queremos cambiar", "Es demasiado completo", "¿Y si falla?"] },
+      { title: "Cierre", items: ["Solicitar demo", "Ver módulos", "Hablar con ventas", "Activar onboarding 72h"] }
+    ],
+    text: `ARGUMENTARIO DE VENTAS — CLUB PÁDEL 04 (VERSIÓN 10/10)
+Formato: modular, profesional, listo para entregar al equipo comercial.
+
+1. APERTURA COMERCIAL
+Objetivo: captar atención en 10 segundos.
+Mensaje base:
+"Club Pádel 04 es un sistema profesional, minimalista y totalmente automatizado para clubes de pádel, franquicias y cadenas deportivas. Gestiona reservas, torneos, ranking, pagos, QR, IA, fidelización y estadísticas en un solo lugar."
+
+2. PROPUESTA DE VALOR PRINCIPAL
+Automatización total
+IA integrada en todos los módulos
+Arquitectura serverless
+Multi-club nativo
+Experiencia profesional pastel verde-amarillo
+
+3. PROBLEMAS QUE RESUELVE
+reservas desordenadas
+torneos manuales
+ranking desactualizado
+pagos dispersos
+comunicación inconsistente
+falta de estadísticas
+falta de automatización
+sistemas antiguos
+soporte lento
+identidad visual poco profesional
+
+4. BENEFICIOS PARA EL CLUB
++30% ocupación
+-70% carga administrativa
+-90% errores
++40% retención
++100% coherencia visual
++95% incidencias resueltas por IA
+
+5. BENEFICIOS PARA EL JUGADOR
+reservas rápidas
+torneos claros
+ranking actualizado
+QR inmediato
+comunicación fluida
+experiencia profesional
+interfaz coherente
+IA que entiende lo que quiere
+fidelización real
+
+6. DIFERENCIADORES CLAVE
+IA real, no cosmética
+Automatizaciones profundas
+Ranking automático
+Torneos automáticos
+QR inteligente
+Estadísticas avanzadas
+Multi-club real
+Panel profesional
+Flujo del jugador optimizado
+Flujo del administrador simplificado
+Soporte autónomo
+Estética pastel verde-amarillo
+Documentación modular y profesional
+
+7. OBJECIONES COMUNES + RESPUESTAS
+"Ya tenemos un sistema."
+Club Pádel 04 no sustituye, mejora. Automatiza IA, QR inteligente, ranking automático, fidelización, estadísticas avanzadas y soporte autónomo.
+
+"No queremos cambiar ahora."
+El onboarding dura 72 horas. Migramos todo, configuramos todo y formamos al personal.
+
+"Es demasiado completo para nosotros."
+Tenemos planes escalables. El Plan Club cubre lo esencial.
+
+"¿Y si falla?"
+Arquitectura serverless. Sin servidores. Sin caídas. Sin mantenimiento.
+
+"¿Y el soporte?"
+La IA resuelve el 95% de incidencias. El resto lo cubre el equipo técnico.
+
+8. CIERRE COMERCIAL
+¿Quieres que activemos una demo personalizada para tu club?
+¿Prefieres ver primero los módulos o el panel administrador?
+Tenemos disponibilidad para onboarding esta semana. ¿Quieres reservar tu plaza?
+
+9. FRASES CLAVE PARA VENTAS
+"Todo lo que un club necesita. Todo en un solo sistema."
+"Automatización real, no cosmética."
+"IA integrada en todos los módulos."
+"Arquitectura serverless: sin caídas, sin mantenimiento."
+"Onboarding en 72 horas."
+"Pastel verde-amarillo: identidad profesional y coherente."
+"Ideal para clubes, franquicias y cadenas deportivas."
+
+10. CTA OFICIALES
+Solicitar demo
+Ver módulos
+Hablar con ventas
+Activar onboarding 72h`
+  },
+  "sales-call-script": {
+    gridId: "sales-call-script-grid",
+    copyId: "sales-call-script-copy",
+    filename: "guion-llamada-comercial-club-padel-04.txt",
+    cards: [
+      { title: "Apertura", items: ["20-30 segundos", "Pedir un minuto", "Contexto claro", "Presentación simple"] },
+      { title: "Diagnóstico", items: ["Reservas", "Torneos", "Ranking", "Pagos", "QR", "Estadísticas"] },
+      { title: "Cierre", items: ["Demo personalizada", "Ver módulos", "Reservar onboarding", "Próximos pasos"] }
+    ],
+    text: `GUION DE LLAMADA COMERCIAL — CLUB PÁDEL 04 (VERSIÓN 10/10)
+Formato: modular, profesional, listo para usar en llamadas reales.
+
+1. OBJETIVO DE LA LLAMADA
+Presentar Club Pádel 04
+Detectar necesidades del club
+Mostrar beneficios clave
+Resolver objeciones
+Avanzar hacia demo o onboarding
+
+2. ESTRUCTURA DE LA LLAMADA
+Apertura
+Contexto
+Detección de necesidades
+Presentación del sistema
+Beneficios
+Objeciones
+Cierre
+Próximos pasos
+
+3. APERTURA
+"Hola, soy del equipo de Club Pádel 04. Te llamo porque estamos ayudando a clubes de pádel a automatizar reservas, torneos, ranking, pagos y QR con un sistema profesional y muy fácil de usar. ¿Tienes un minuto?"
+
+4. CONTEXTO
+"Estamos trabajando con clubes que quieren profesionalizar su gestión, reducir carga administrativa y mejorar la experiencia del jugador. Todo con un sistema pastel verde-amarillo, minimalista y totalmente automatizado."
+
+5. DETECCIÓN DE NECESIDADES
+Preguntas literales:
+¿Cómo gestionáis ahora las reservas?
+¿Tenéis torneos activos?
+¿El ranking lo actualizáis manualmente?
+¿Cómo gestionáis los pagos?
+¿Usáis QR para accesos?
+¿Tenéis estadísticas del club?
+¿Tenéis problemas de carga administrativa?
+
+6. PRESENTACIÓN DEL SISTEMA
+"Club Pádel 04 es un sistema profesional, minimalista y totalmente automatizado. Gestiona reservas, torneos, ranking, pagos, QR, IA, fidelización y estadísticas en un solo lugar. Todo funciona con arquitectura serverless, sin caídas y sin mantenimiento."
+
+7. BENEFICIOS CLAVE
++30% ocupación
+-70% carga administrativa
+-90% errores
++40% retención
++95% incidencias resueltas por IA
+Identidad pastel verde-amarillo
+Multi-club nativo
+
+8. OBJECIONES + RESPUESTAS
+Ya tenemos un sistema.
+Club Pádel 04 no sustituye, mejora. Automatiza ranking, torneos, QR, IA y estadísticas.
+
+No queremos cambiar ahora.
+El onboarding dura 72 horas. Migramos todo y dejamos el sistema funcionando sin interrupciones.
+
+Es demasiado completo.
+Tenemos planes escalables. El Plan Club cubre lo esencial.
+
+¿Y si falla?
+Arquitectura serverless. Sin servidores. Sin caídas.
+
+9. CIERRE
+¿Quieres que te prepare una demo personalizada para ver cómo funcionaría en tu club?
+¿Prefieres ver primero los módulos o el panel administrador?
+Tenemos hueco para onboarding esta semana. ¿Quieres reservar tu plaza?
+
+10. PRÓXIMOS PASOS
+Si acepta demo:
+enviar enlace
+agendar reunión
+preparar panel personalizado
+
+Si acepta onboarding:
+enviar contrato
+iniciar migración
+activar sede
+
+11. MENSAJE FINAL
+El guion garantiza:
+claridad
+profesionalidad
+coherencia pastel verde-amarillo
+estructura modular
+cierre efectivo`
+  },
+  "sales-email": {
+    gridId: "sales-email-grid",
+    copyId: "sales-email-copy",
+    filename: "email-presentacion-club-padel-04.txt",
+    cards: [
+      { title: "Versión corta", items: ["Impacto inmediato", "Sistema profesional", "Demo personalizada", "Ideal para primer contacto"] },
+      { title: "Versión larga", items: ["Contexto corporativo", "Módulos completos", "Onboarding en 72h", "Invitación a demo"] },
+      { title: "Canales", items: ["WhatsApp / SMS / LinkedIn", "Versión corporativa", "Franquicias y cadenas", "Listo para CRM"] }
+    ],
+    text: `EMAIL DE PRESENTACIÓN — CLUB PÁDEL 04 (VERSIÓN 10/10)
+
+1. VERSIÓN CORTA
+Asunto: Sistema profesional para clubes de pádel — Club Pádel 04
+
+Cuerpo:
+Hola,
+Te escribo para presentarte Club Pádel 04, un sistema profesional, minimalista y totalmente automatizado para la gestión de clubes de pádel, franquicias y cadenas deportivas.
+El sistema integra en un solo lugar:
+reservas
+torneos
+ranking
+pagos
+QR
+IA
+fidelización
+estadísticas
+soporte automatizado
+Arquitectura serverless.
+IA integrada en todos los módulos.
+Onboarding en 72 horas.
+Identidad pastel verde-amarillo.
+Si quieres, preparo una demo personalizada para tu club.
+Un saludo,
+Club Pádel 04
+
+2. VERSIÓN LARGA
+Asunto: Presentación oficial — Club Pádel 04 (SaaS profesional para clubes de pádel)
+
+Cuerpo:
+Hola,
+Te contacto para presentarte Club Pádel 04, un sistema SaaS profesional diseñado para clubes de pádel, franquicias y cadenas deportivas que buscan una gestión moderna, automatizada y coherente.
+El sistema unifica en una sola plataforma:
+Reservas
+Torneos
+Ranking automático
+Pagos y facturación
+Acceso QR inteligente
+Comunicación
+IA integrada
+Fidelización
+Notificaciones
+Estadísticas avanzadas
+Multi-club nativo
+Soporte automatizado 24/7
+Todo funciona con arquitectura serverless, sin servidores, sin caídas y sin mantenimiento.
+La interfaz es minimalista, profesional y pastel verde-amarillo, coherente en todos los módulos.
+El onboarding se completa en 72 horas, incluyendo:
+migración de datos
+configuración del club
+activación de módulos
+formación del personal
+lanzamiento oficial
+Si te interesa, puedo prepararte una demo personalizada para ver cómo funcionaría en tu club.
+Quedo a tu disposición.
+Un saludo,
+Club Pádel 04
+
+3. VERSIÓN ULTRA-BREVE
+Mensaje:
+Hola. Soy del equipo de Club Pádel 04. Tenemos un sistema profesional y automatizado para clubes de pádel: reservas, torneos, ranking, pagos, QR, IA y estadísticas en un solo lugar. ¿Quieres que te prepare una demo?
+
+4. VERSIÓN CORPORATIVA
+Asunto: Sistema corporativo multi-club — Club Pádel 04
+
+Cuerpo:
+Hola,
+Te presento Club Pádel 04, un sistema corporativo diseñado para franquicias y cadenas deportivas que necesitan unificar sedes, reglas, datos y procesos en una sola plataforma.
+Incluye:
+panel corporativo
+multi-club nativo
+API pública
+sincronización entre sedes
+roles corporativos
+estadísticas globales
+IA corporativa
+branding pastel verde-amarillo
+Si quieres, preparo una demo corporativa para tu grupo.
+Un saludo,
+Club Pádel 04`
+  }
+};
+
+function initBusinessDocs() {
+  Object.values(businessDocSections).forEach(section => {
+    renderLiteralGrid(section.gridId, section.cards);
+    const copyTarget = document.getElementById(section.copyId);
+    if (copyTarget) copyTarget.textContent = section.text;
+  });
+}
+
+function copyBusinessDoc(key) {
+  const section = businessDocSections[key];
+  if (!section) return;
+  copyTextToClipboard(section.text, "Documento copiado");
+}
+
+function downloadBusinessDoc(key) {
+  const section = businessDocSections[key];
+  if (!section) return;
+  downloadText(section.filename, section.text);
+  showToast("Documento descargado");
+}
+
 function initExtendedDocs() {
   renderLiteralGrid("ranking-grid", [
     { title:"Objetivo", items:["Justo","Automático","Sin intervención manual","Integrado con torneos y reservas"] },
@@ -4563,6 +6188,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initPitch();
   initDashboardConcept();
   initExtendedDocs();
+  initBusinessDocs();
 });
 </script>
 </body>
